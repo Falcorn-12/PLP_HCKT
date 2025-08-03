@@ -16,7 +16,7 @@ GitHub Pages for hosting
 
 🌐 Live Demo
 You can view my live portfolio here:  
-[https://github.com/Falcorn-12 /faith-portfolio/](https://github.com/Falcorn-12 /faith-portfolio/)
+https://falcorn-12.github.io/PLP_HCKT/
 
  📷 Screenshot
 ![Portfolio Screenshot](faith-omondi.jpg)
