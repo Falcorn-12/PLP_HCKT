@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Faith Omondi | Portfolio</title>
+  <style>
+    /* ===== Global Styles ===== */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', Arial, sans-serif;
+      background-color: #121212;
+      color: #eaeaea;
+      line-height: 1.6;
+    }
+
+    h2 {
+      margin-bottom: 12px;
+      color: #ffcc70;
+    }
+
+    section {
+      padding: 50px 15px;
+      max-width: 850px;
+      margin: auto;
+    }
+
+    .container {
+      background-color: #1c1c1c;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+    }
+
+    a {
+      color: #70d6ff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* ===== Profile Image ===== */
+    .profile-img {
+      display: block;
+      margin: 0 auto 20px auto;
+      width: 140px;
+      height: 140px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 3px solid #ffcc70;
+    }
+
+    /* ===== Education Section ===== */
+    #education ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    #education li {
+      background-color: #1f1f1f;
+      margin-bottom: 10px;
+      padding: 12px;
+      border-left: 4px solid #ffcc70;
+      border-radius: 4px;
+    }
+
+    /* ===== Contact Form ===== */
+    form input,
+    form textarea {
+      width: 100%;
+      background-color: #1a1a1a;
+      border: 1px solid #333;
+      border-radius: 6px;
+      padding: 12px;
+      margin-bottom: 15px;
+      font-size: 0.95rem;
+      color: #fff;
+      outline: none;
+      transition: border 0.3s ease;
+    }
+
+    form input:focus,
+    form textarea:focus {
+      border-color: #ffcc70;
+    }
+
+    form input::placeholder,
+    form textarea::placeholder {
+      color: #888;
+    }
+
+    button {
+      width: 100%;
+      padding: 12px;
+      background-color: #ffcc70;
+      border: none;
+      border-radius: 6px;
+      color: #000;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #e6b85e;
+    }
+
+    /* ===== Social Links ===== */
+    .social-links {
+      text-align: center;
+      margin-top: 25px;
+    }
+
+    .social-links a {
+      color: #70d6ff;
+      margin: 0 10px;
+      font-size: 0.95rem;
+    }
+
+    /* ===== Responsive ===== */
+    @media (max-width: 600px) {
+      .container {
+        padding: 20px;
+      }
+
+      .profile-img {
+        width: 100px;
+        height: 100px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="container">
+      <img src="faith-omondi.jpg" alt="Faith Omondi" class="profile-img">
+      <h2>About Me</h2>
+      <p>
+        Hi, I'm Faith Omondi, a student of Electrical and Electronics Engineering and a tech enthusiast with a strong passion for software development.
+        I’m especially interested in the intersection of hardware and software where code controls circuits and systems come to life.
+        I'm currently building skills in Python, ML, HTML, CSS, and JavaScript while deepening my understanding of electronics, microcontrollers, and embedded systems.
+        My goal is to design smart, efficient systems—from IoT devices to automation tools—that bridge the gap between hardware and software.
+      </p>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education">
+    <div class="container">
+      <h2>Educational Background</h2>
+      <ul>
+        <li>
+          <strong>BS Electrical and Electronics Engineering</strong><br>
+          Murang’a University of Technology — Current
+        </li>
+        <li>
+          <strong>Software Development</strong><br>
+          Power Learn Project — Ongoing
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <form>
+        <input type="text" placeholder="Full Name" required>
+        <input type="email" placeholder="Email Address" required>
+        <input type="text" placeholder="Subject" required>
+        <textarea rows="5" placeholder="Tell me about your project or just say hello!" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+
+      <div class="social-links">
+        <p>Connect with me:</p>
+        <a href="mailto:omondifaith20300@gmail.com">Email</a>
+        <a href="https://github.com/Falcorn-12" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/faith-omondi-05721a375" target="_blank">LinkedIn</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>© 2025 Faith Omondi| All rights reserved</p>
+    </div>
+  </footer>
+
+</body>
+</html>
